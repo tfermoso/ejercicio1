@@ -1,3 +1,121 @@
 *{
-	border:1px solid black;
+/*	border:1px solid black;
+*/}
+header{
+	position: relative;
+}
+header figure{
+	display:inline-block;
+}
+#proyectos{
+	width: 80%;
+	margin:auto;
+}
+
+nav{
+	display: inline-block;
+	position:absolute;
+	right: 20px;
+	margin:20px;
+}
+nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+article{
+	position: relative;
+	border:1px solid green;
+	border-radius: 20px;
+	padding:10px;
+}
+
+figure{
+	display: inline-block;
+	margin-top: 0px;
+}
+article div{
+	display: inline-block;
+	
+}
+h1,h2{
+	margin-left: 20px;
+}
+#proyecto1 div{
+	position:absolute;
+	right: 10px;
+	top:0;
+	width: 60%;
+}
+#proyecto1{
+	margin-bottom: 10px
+}
+
+#proyecto2 figure{
+	position: absolute;
+	right: 10px
+}
+#proyecto2 div{
+	margin-left: 20px;
+	width: 60%;
+}
+
+.otrosProyectos{
+	position: relative;
+	display: block;
+	height: 600px;
+}
+.otrosProyectos article{
+	display:inline-block;
+	width: 400px;
+
+}
+#proyecto4{
+	position:absolute;
+	right: 10px;
+}
+#proyecto3{
+	position:absolute;
+	left: 10px;
+}
+#categorias{
+	display: block;
+	position:relative;
+
+}
+#categoria1,#categoria2{
+	display: inline-block;
+}
+#categoria2{
+	position:absolute;
+	right: 50px;
+}
+#categoria1{
+	margin-left: 50px;
+}
+#categorias h3{
+	text-align: center;
+}
+footer{
+	margin-top:40px;
+	background-color: grey;
+	color:white;
+	position: relative;
+}
+footer img{
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+	margin-top: 10px;
+
+}
+form{
+	display:inline-block;
+}
+
+#contacto{
+	display: inline-block;
+	color:white;
+}
+footer h3{
+	margin-top:20px;
 }
